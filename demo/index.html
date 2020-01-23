@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Stickup Slider</title>
+    <!-- apply non-plugin demo styling -->
+    <style>
+      html,body{height:100%;margin:0;}
+      .demo{max-width:55em;margin:2em auto;padding:1em;}
+    </style>
+    <!-- include jquery -->
+    <script src="jquery-1.11.1.min.js"></script>
+    <!-- include the plugin files -->
+    <link rel="stylesheet" href="../pup.css" />
+    <script src="../pup.js"></script>
+    <!-- apply pup to any selector(s) you'd like -->
+    <script>
+      jQuery(function($){
+        $('.pup-1').pup();
+        $('.pup-2').pup({lock: false});
+        // tip: use $('[data-pup]').pup(); to target all triggers
+      });
+    </script>
+</head>
+<body>
+    <div class="demo">
+        <!-- data-pup element can be anywhere on the page -->
+        <button class="pup-1" data-pup="some-id">Open the popup!</button>
+        <p>Or, open it via any <a href="javascript:void(0)" class="pup-1" data-pup="some-id">other clickable elements</a>. Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <!-- data-pup element can be anywhere on the page -->
+        <button class="pup-2" data-pup="some-other-id">Another Popup (no scroll locking on page)</button>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <p>Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+        <!-- .pup#some-id can be anywhere on the page -->
+        <div class="pup" id="some-id">
+            <div class="pup__frame">
+                <div class="pup__content">
+                    <h1>More Puppies! 🐾</h1>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <h2>More content (should cause inner scrolling and bottom fade)</h2>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                </div>
+                <button class="pup__close js-pup-close" aria-label="Close popup">x</button>
+            </div>
+        </div>
+        <!-- here's another for demo purposes -->
+        <div class="pup" id="some-other-id">
+            <div class="pup__frame">
+                <div class="pup__content">
+                    <h1>More Puppies! 🐾</h1>
+                    <p>Demo text. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
+                </div>
+                <button class="pup__close js-pup-close" aria-label="Close popup">x</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
