@@ -1,15 +1,15 @@
-# Pup Popups
+# Pup Popups v1.0.0
 _a jQuery plugin_
 
 ## Description
-This is a very simple, lightweight popup jQuery plugin.
+Pup is a very simple, lightweight jQuery popup plugin.
 
 ## Demo
 Have a look at the [demo](http://tcmulder.github.io/pup/demo/index.html) or play around with the code on [codepen](https://codepen.io/tcmulder/pen/RwwyzgG).
 
 ## Usage
 
-### 1. Set up your JavaScript
+### 1. Set up the plugin scripts
 Load jQuery and include the Pup plugin files.
 
 ```html
@@ -18,7 +18,7 @@ Load jQuery and include the Pup plugin files.
 <script src="stickup.js"></script>
 ```
 ### 2. Add your popup
-Add your popup with a unique ID, using the following markup.
+Add your popup with a unique ID, using the following markup at minimum.
 
 ```html
 <div class="pup" id="some-id">

@@ -15,15 +15,16 @@
     <script src="../pup.js"></script>
     <!-- apply pup to any selector(s) you'd like -->
     <script>
-      jQuery(function($){
-        $('.pup-1').pup();
-        $('.pup-2').pup({lock: false});
-        // tip: use $('[data-pup]').pup(); to target all triggers
-      });
+        jQuery(function($){
+            $('.pup-1').pup();
+            $('.pup-2').pup({lock: false});
+            // tip: use $('[data-pup]').pup(); to target all triggers
+        });
     </script>
 </head>
 <body>
     <div class="demo">
+        <h1>Pup jQuery Popup Plugin</h1>
         <!-- data-pup element can be anywhere on the page -->
         <button class="pup-1" data-pup="some-id">Open the popup!</button>
         <p>Or, open it via any <a href="javascript:void(0)" class="pup-1" data-pup="some-id">other clickable elements</a>. Demo text <em>(demonstrates scroll locking while the popup is open)</em>. pulvinar lectus, in gravida odio posuere id. In ut felis auctor, rhoncus risus porta, gravida ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec erat nulla. Aliquam rutrum, ligula ut egestas ullamcorper, justo nulla vulputate ipsum, in luctus velit risus vitae justo. Aenean maximus dictum sapien, eu maximus odio tristique at. Proin ac turpis enim. Nullam pulvinar ultricies ligula, sed scelerisque odio ultrices a. Vivamus eu finibus metus, id aliquet est. Aliquam metus leo, fringilla vitae neque et, tempor ultrices metus.</p>
